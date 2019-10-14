@@ -1,6 +1,6 @@
 <?php
 
-function dd($data) {
+function dump($data) {
     highlight_string("<?php \n" . var_export($data, true) . ";\n ?>");
     die();
 }
